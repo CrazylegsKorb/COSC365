@@ -7,7 +7,7 @@ import time
 import json
 
 #variables
-TIME_TO_PASS = 3                                    #time constant between HTTP requests
+TIME_TO_PASS = 10                                    #time constant between HTTP requests
 name = []                                           #list of name links to DB child entries
 got = []                                            #list of data from DB child entries
 URL = 'https://cosc365-981cd.firebaseio.com/test'   #DB URL
