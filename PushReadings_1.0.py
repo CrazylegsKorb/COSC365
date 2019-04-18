@@ -17,7 +17,7 @@ GPIO.setup(18, GPIO.OUT)    # set GPIO number 18 for output (3.3v-high, 0v-low)
 #variables
 TIME_TO_PASS = 1                                        # time constant between HTTP requests
 URL = 'https://cosc365-981cd.firebaseio.com/run.json'   # DB URL
-data = {"close" :   0,                                  # close: 0 = false, 1 = true
+data = {"close" :   0,                                  # close: boolean
         "dist"  :   0}                                  # dist: 0-255
 flag = False                                            # flag to determine operation end on exception thrown
 i2c = busio.I2C(board.SCL, board.SDA)
